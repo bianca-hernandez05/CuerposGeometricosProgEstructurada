@@ -5,8 +5,8 @@ public class App {
     Scanner lector = new Scanner (System.in);
 
     byte intentos = 1 , intentoMaximo = 3, opcion ;
-    double LongitudLados, altura= 0, areaLateral, areaTotal = 0, volumen, perimetroBase , areaBase, apotema,apotemaMenor, longitudLadosMayor, longitudLadosMenor;
-    double radiodeEsfera = 0 ,area = 0,radio = 0 ,gentriz, areaPentagonal, radioMayor, radioMenor, areabaseMayor, areabaseMenor,radiodelCirculoMayor;
+    double LongitudLados, altura= 0, areaLateral=0, areaTotal = 0, volumen=0, perimetroBase , areaBase, apotema,apotemaMenor, longitudLadosMayor, longitudLadosMenor;
+    double radiodeEsfera = 0 ,area = 0,radio = 0 ,gentriz, areaPentagonal=0, radioMayor, radioMenor, areabaseMayor, areabaseMenor,radiodelCirculoMayor;
     double diagonal = 0, HusoEsfericoArea = 0, CuñaEsfericaVolumen =0 ,grados, apotemaBase, ApotemaPiramide, perimetroMayor, perimetroMenor, apotemaMayor;
     int CantidadLados,a,b,c;
     
@@ -494,7 +494,7 @@ public class App {
 
         if(intentos == intentoMaximo){
          
-       System.out.printl ("Se ha quedado sin intentos : ");
+       System.out.println("Se ha quedado sin intentos : ");
      }else{
        
         System.out.println("Area del Octaedro :" + area + "Unidades cuadradas.");
